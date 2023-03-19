@@ -50,12 +50,12 @@
         </div>
       </div>
     </header>
-    <nav class="flex justify-between h-screen py-4 px-4">
+    <nav class="flex justify-between h-[95vh] py-4 px-4">
       <div
         class="flex w-full flex-col justify-between"
         :class="{ 'hidden': !isNavOpen, 'flex': isNavOpen }"
       >
-        <div class="text-[14px] leading-[18px] flex gap-4 flex-col md:flex-row">
+        <div class="text-[14px] leading-[18px] flex gap-4 flex-col">
           <a
             v-for="item in navItems"
             :key="item.label"

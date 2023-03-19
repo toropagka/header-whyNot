@@ -1,7 +1,7 @@
+@import url(//db.onlinewebfonts.com/c/44192ae8e396469bd0e6ff8afc12a145?family=Tele2+TextSans+Web+SHORT);
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url(//db.onlinewebfonts.com/c/44192ae8e396469bd0e6ff8afc12a145?family=Tele2+TextSans+Web+SHORT);
 
 body {
   font-family: 'Tele2 TextSans Web SHORT';
