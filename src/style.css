@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url(//db.onlinewebfonts.com/c/44192ae8e396469bd0e6ff8afc12a145?family=Tele2+TextSans+Web+SHORT);
+
+body {
+  font-family: 'Tele2 TextSans Web SHORT';
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#app {
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 100%;
+}
